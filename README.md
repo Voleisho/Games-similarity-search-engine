@@ -3,7 +3,11 @@
 This repository contains an innovative Games Similarity Search Engine, developed as part of a university project, to help gamers explore related titles from a digital marketplace for gamers. The project encompasses three main components:
 
 ## Web Scraping 
-Leveraging web scraping techniques, the project gathers essential game information from the digital gaming marketplace. Collected data includes game titles, genres, descriptions, prices, and links.
+The Web Scraping component employs powerful web scraping techniques to collect essential game information from the digital gaming marketplace. The data gathered includes game titles, prices, genres, descriptions, and links.
+
+The provided code demonstrates the process of web scraping from a digital gaming marketplace. By utilizing libraries such as **requests**, **BeautifulSoup**, and **csv**, the code fetches data from multiple pages on the website. It iterates through a range of page numbers and extracts relevant information about games, such as their titles, prices, genres, and descriptions.
+
+The collected data is then saved to a CSV file named 'data.csv', which acts as a structured dataset containing the necessary information about the games available on the platform.
 
 ## Similarity Search Engine
 The Search Engine component is a key part of the project responsible for facilitating game recommendations and categorizing games based on user input.
