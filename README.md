@@ -22,6 +22,9 @@ The search engine utilizes the DistilBERT model from the transformers library to
 The search engine enables users to input a game category of their interest. It uses the pre-trained DistilBERT model to calculate cosine similarity between the user-provided category and the game categories available in the dataset. The search engine then returns a list of games that belong to the most similar category, along with their prices.
 
 ## Dialogflow Integration with Flask
-The Dialogflow Integration part focuses on incorporating the search engine functionality into a chatbot powered by Dialogflow. The chatbot will enable users to interact with the game similarity search engine through natural language queries.
+
+The Dialogflow Integration with Flask enables the chatbot to seamlessly incorporate the game similarity search engine. Users interact with the search engine through natural language queries, receiving game recommendations and cheapest games in specific categories.
+
+This integration leverages Flask as a webhook, handling user queries and invoking the search engine functions. The chatbot responds to users based on the results obtained from the search engine.
 
 
