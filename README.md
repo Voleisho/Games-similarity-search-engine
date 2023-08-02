@@ -12,15 +12,12 @@ The Search Engine component is a key part of the project responsible for facilit
 The search engine leverages the power of pre-trained transformer models from the **transformers** library. It processes user input, whether it's a game title for recommendation or a game category for grouping similar games.
 
 #### 1. Game Recommendations:
-By using the DistilBERT model from transformers, the search engine performs similarity analysis between the user-provided game title and the game titles available in the dataset. It calculates cosine similarity scores and provides a list of game recommendations based on the input game title.
+The search engine utilizes the DistilBERT model from the transformers library to perform similarity analysis between the user-provided game title and the game descriptions available in the dataset. It calculates cosine similarity scores based on the game descriptions and provides a list of game recommendations that are similar to the user's input game title.
 
 #### 2. Game Categorization:
 The search engine enables users to input a game category of their interest. It uses the pre-trained DistilBERT model to calculate cosine similarity between the user-provided category and the game categories available in the dataset. The search engine then returns a list of games that belong to the most similar category, along with their prices.
 
 ## Dialogflow Integration with Flask
-The Dialogflow Integration branch focuses on incorporating the search engine functionality into a chatbot powered by Dialogflow. The chatbot will enable users to interact with the game similarity search engine through natural language queries.
-
-### Usage
-Once the integration is complete, users can communicate with the chatbot by providing game titles or categories as inputs. The chatbot will respond with game recommendations or a list of games that belong to the most similar category, along with their prices.
+The Dialogflow Integration part focuses on incorporating the search engine functionality into a chatbot powered by Dialogflow. The chatbot will enable users to interact with the game similarity search engine through natural language queries.
 
 
