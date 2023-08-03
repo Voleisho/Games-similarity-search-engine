@@ -1,4 +1,4 @@
-# Games-similarity-search-engine
+# Games similarity search engine
 
 This repository contains an innovative Games Similarity Search Engine, developed as part of a university project, to help gamers explore related titles from a digital marketplace for gamers. The project encompasses three main components:
 
